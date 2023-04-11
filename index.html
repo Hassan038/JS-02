@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>js assignment 2</h1>
+
+    <button type="button" onclick="addParagraph()">Add papragraph</button>
+    <button onclick="addListItem('New item')">Add list item</button>
+
+<div id="newTextArea">
+</div>
+<div id="newTextArea2">
+    <ul id="numberList"></ul>
+</div>
+<!-- changing colors of butons -->
+<button onclick="changeColor(this.id,'red')" id="button1" class="MetroBtn" >red</button>
+<button onclick="changeColor(this.id,'blue')" id="button2" class="MetroBtn">blue</button>
+<button onclick="changeColor(this.id,'green')" id="button3" class="MetroBtn">green</button>
+<br><br>
+<!--localstorage-->
+<button onclick="setData()">Add data to local storage</button>
+<button onclick="getData()">Get data from local storage</button>
+    <script src="./script.js"></script>
+</body>
+</html>
